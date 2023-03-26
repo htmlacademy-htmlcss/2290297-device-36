@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "Rubic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Rubic", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color:#000000;
+  background-color: #ffffff;
+  min-width: 1440px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #FFE17F;
+}
+
+.navigation-link-user {
+  font-family: "Rubic", sans-serif;
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+.navigation-link {
+  font-family: "Rubic", sans-serif;
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.navigation-list {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color:#000000;
+}
+
+
+.navigation-catalog-link {
+  font-family: "Rubic", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color:#000000;
+}
+
+.main-index {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.slider-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color:#000000;
+}
+
+.button-decore {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color:#000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.description {
+font-family: "Rubic", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #444444;
+}
+
+.description-term {
+  color: #444444;
+}
+
+.description-definition {
+  font-size: 36px;
+  line-height: 30px;
+  color:#000000;
+}
+
+.category-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color:#000000;
+  text-decoration: none;
+}
+
+.services-description-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color:#000000;
+}
+
+.services-description-text {
+  font-family: "Rubic", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+  }
+
+  .delivery-order {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color:#000000;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .title {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .text,
+  .contacts-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color:#444444;
+  }
+
+  .about-list{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .contacts-phone {
+    font-family: "Rubic", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color:#444444;
+    text-decoration: none;
+  }
+
+  .footer-link {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color: #444444;
+    text-decoration: none;
+  }
+
+  .footer-contacts-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:#ffffff;
+    background-color: #444444;
+  }
+
+  .footer-phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:#ffffff;
+    background-color: #444444;
+    text-decoration-line: underline;
+  }
